@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+	<title></title>
+
+</head>
+<body>
+
+<div id="contact-form" align="center">
+	<font face="Comic Sans MS">  
+   <h1><font color="navy">Formulario de datos</font></h1>
+    
+   <form action="">  
+
+   	  <label for="nombre"><font color="purple"><strong>Nombre</strong></font></label><br>  
+      <input type="text" id="name" name="Nombre" value="ej. Juan" required/><br><br>
+
+      <label for="nombre"><font color="purple"><strong>Apellido</strong></font></label><br>  
+      <input type="text" id="name" name="Apellido" value="ej. Soto" required/><br><br>
+
+      <label for="tel"><font color="purple"><strong>Teléfono</strong></font></label><br>
+      <input type="tel" name="telefono" pattern="[0-8]{8}" value="ej 12345678" required><br><br> 
+
+      <label for="subject"><font color="purple"><strong>Escoge tu auto para continuar</strong></font></label><br><br>  
+      <select id="subject" name="subject">  
+         <option value="Hummer">Hummer</option>
+         <option value="Cherokee">Cherokee</option>  
+         <option value="4runner">4runner</option>  
+      </select><br><br>         
+              
+               
+      <label for="email"><font color="purple"><strong>Email</strong></font><span class="required">*</span></label><br>  
+      <input type="email" id="email" name="email" value="" placeholder="nombre@email.com" required/><br><br>  
+
+      <label for="pw"><font color="purple"><strong>Crea tu contraseña</strong></font></label><br> 
+      <input type="password" name="pw" pattern=".{6,}" title="6 o más carácteres" required><br><br>
+
+               
+      <input type="submit" value="Send" id="submit" />
+   </form> 
+   </font> 
+</div>
+</form>
+</body>
+</html> 
